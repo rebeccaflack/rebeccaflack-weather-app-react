@@ -29,13 +29,13 @@ export default function App() {
           <h1 className="current-temperature">
             <span id="current-temperature"> 24 </span>
             <span className="units">
-              <a href="#" id="celsius-link" className="active">
+              <button href="#" id="celsius-link" className="active">
                 ˚C
-              </a>{" "}
+              </button>{" "}
               |
-              <a href="#" id="farenheit-link">
+              <button href="#" id="farenheit-link">
                 ˚F
-              </a>
+              </button>
             </span>
           </h1>
           <div className="row">
